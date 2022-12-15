@@ -1,5 +1,5 @@
 <?php
-namespace Yo1L\LaravelTypeForm\Test;
+namespace RosiersRobin\LaravelTypeForm\Test;
 
 class TypeFormResponses
 {

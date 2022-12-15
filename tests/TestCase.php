@@ -1,8 +1,8 @@
 <?php
-namespace Yo1L\LaravelTypeForm\Test;
+namespace RosiersRobin\LaravelTypeForm\Test;
 
-use Yo1L\LaravelTypeForm\TypeFormFacade;
-use Yo1L\LaravelTypeForm\TypeFormServiceProvider;
+use RosiersRobin\LaravelTypeForm\TypeFormFacade;
+use RosiersRobin\LaravelTypeForm\TypeFormServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class TestCase extends OrchestraTestCase
@@ -10,7 +10,7 @@ class TestCase extends OrchestraTestCase
     /**
      * Load package service provider
      * @param  \Illuminate\Foundation\Application $app
-     * @return Yo1L\TypeForm\TypeFormServiceProvider
+     * @return RosiersRobin\TypeForm\TypeFormServiceProvider
      */
     protected function getPackageProviders($app)
     {

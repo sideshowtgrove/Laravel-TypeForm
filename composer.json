@@ -1,33 +1,30 @@
 {
-    "name": "yo1l/laravel-typeform",
+    "name": "rosiersrobin/laravel-typeform",
     "description": "A simple Laravel Facade to retrieve typeform responses and to manage webhooks calls",
     "type": "library",
     "require": {
-        "php": ">=7.0",
-        "guzzlehttp/guzzle": "^6.3",
-        "laravel/framework": "~5.4",
-        "illuminate/config": "~5.4"
+        "php": "^7.3|^8.0|^8.1"
     },
     "require-dev": {
         "orchestra/testbench": "~3.0"
     },
     "autoload": {
         "psr-4": {
-            "Yo1L\\LaravelTypeForm\\": "src"
+            "RosiersRobin\\LaravelTypeForm\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Yo1L\\LaravelTypeForm\\Test\\": "tests/"
+            "RosiersRobin\\LaravelTypeForm\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Yo1L\\LaravelTypeForm\\TypeFormServiceProvider"
+                "RosiersRobin\\LaravelTypeForm\\TypeFormServiceProvider"
             ],
             "aliases": {
-                "TypeForm": "Yo1L\\LaravelTypeForm\\TypeFormFacade"
+                "TypeForm": "RosiersRobin\\LaravelTypeForm\\TypeFormFacade"
             }
         }
     },
@@ -35,8 +32,8 @@
     "minimum-stability": "dev",
     "authors": [
         {
-            "name": "Yo1L",
-            "email": "yleviavant@gmail.com"
+            "name": "RosiersRobin",
+            "email": "robin@libaro.be"
         }
     ]
 }

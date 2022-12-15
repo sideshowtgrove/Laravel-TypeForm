@@ -1,10 +1,6 @@
 <?php
-namespace Yo1L\LaravelTypeForm;
+namespace RosiersRobin\LaravelTypeForm;
 
-/**
- *
- * @author Yo1L <kyleviavant@gmail.com>
- */
 use Illuminate\Support\ServiceProvider;
 
 class TypeFormServiceProvider extends ServiceProvider
