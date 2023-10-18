@@ -1,7 +1,7 @@
 <?php
-namespace RosiersRobin\LaravelTypeForm\Test;
+namespace SideshowTgrove\LaravelTypeForm\Test;
 
-use RosiersRobin\LaravelTypeForm\TypeForm;
+use SideshowTgrove\LaravelTypeForm\TypeForm;
 use GuzzleHttp\Handler\MockHandler;
 use GuzzleHttp\Psr7\Response;
 
