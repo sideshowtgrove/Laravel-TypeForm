@@ -8,6 +8,18 @@ A simple Laravel Facade to retrieve easily typeform responses and to validate/re
  *  Laravel >= 8.0
 
 ## Composer
+In the top of your composer file, add this repo.
+```
+"repositories": [    
+    {
+        "type": "vcs",
+        "url": "https://github.com/sideshowtgrove/Laravel-TypeForm.git"
+    },
+    // Other repos...
+]
+```
+
+Then install the package via composer.
 ```
 composer require "SideshowTgrove/laravel-typeform"
 ```
