@@ -1,6 +1,6 @@
 <?php
 
-namespace RosiersRobin\LaravelTypeForm;
+namespace SideshowTgrove\LaravelTypeForm;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\RequestOptions;
