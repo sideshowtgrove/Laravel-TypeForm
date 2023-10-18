@@ -1,5 +1,5 @@
 {
-    "name": "rosiersrobin/laravel-typeform",
+    "name": "sideshowtgrove/laravel-typeform",
     "description": "A simple Laravel Facade to retrieve typeform responses and to manage webhooks calls",
     "type": "library",
     "require": {
@@ -10,21 +10,21 @@
     },
     "autoload": {
         "psr-4": {
-            "RosiersRobin\\LaravelTypeForm\\": "src"
+            "SideshowTgrove\\LaravelTypeForm\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "RosiersRobin\\LaravelTypeForm\\Test\\": "tests/"
+            "SideshowTgrove\\LaravelTypeForm\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "RosiersRobin\\LaravelTypeForm\\TypeFormServiceProvider"
+                "SideshowTgrove\\LaravelTypeForm\\TypeFormServiceProvider"
             ],
             "aliases": {
-                "TypeForm": "RosiersRobin\\LaravelTypeForm\\TypeFormFacade"
+                "TypeForm": "SideshowTgrove\\LaravelTypeForm\\TypeFormFacade"
             }
         }
     },
@@ -32,8 +32,8 @@
     "minimum-stability": "dev",
     "authors": [
         {
-            "name": "RosiersRobin",
-            "email": "robin@libaro.be"
+            "name": "SideshowTgrove",
+            "email": "support@sideshow.com"
         }
     ]
 }
