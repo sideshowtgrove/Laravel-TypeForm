@@ -1,5 +1,5 @@
 <?php
-namespace RosiersRobin\LaravelTypeForm;
+namespace SideshowTgrove\LaravelTypeForm;
 
 use Illuminate\Support\Facades\Facade;
 
