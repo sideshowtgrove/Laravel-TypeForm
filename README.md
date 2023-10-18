@@ -1,10 +1,11 @@
 # Laravel-TypeForm
-A simple Laravel 5 Facade to retrieve easily typeform responses and to validate/register/unregister webhooks.
+A simple Laravel Facade to retrieve easily typeform responses and to validate/register/unregister webhooks.
 
 # Installation
 
 ## Requirements
  *  php: >=8.0
+ *  Laravel >= 8.0
 
 ## Composer
 ```
