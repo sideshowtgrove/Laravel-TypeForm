@@ -1,8 +1,8 @@
 <?php
-namespace RosiersRobin\LaravelTypeForm\Test;
+namespace SideshowTgrove\LaravelTypeForm\Test;
 
-use RosiersRobin\LaravelTypeForm\TypeFormFacade;
-use RosiersRobin\LaravelTypeForm\TypeFormServiceProvider;
+use SideshowTgrove\LaravelTypeForm\TypeFormFacade;
+use SideshowTgrove\LaravelTypeForm\TypeFormServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class TestCase extends OrchestraTestCase
