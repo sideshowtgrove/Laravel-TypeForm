@@ -8,11 +8,11 @@ A simple Laravel 5 Facade to retrieve easily typeform responses and to validate/
 
 ## Composer
 ```
-composer require "RosiersRobin/laravel-typeform"
+composer require "SideshowTgrove/laravel-typeform"
 ```
 
 ## Service Provider
-The **RosiersRobin\LaravelTypeForm\TypeFormServiceProvider** is auto-discovered and registered by default, but if you want to register it yourself:
+The **SideshowTgrove\LaravelTypeForm\TypeFormServiceProvider** is auto-discovered and registered by default, but if you want to register it yourself:
 
 Add the ServiceProvider in config/app.php
 
@@ -21,7 +21,7 @@ Add the ServiceProvider in config/app.php
     /*
      * Package Service Providers...
      */
-    RosiersRobin\LaravelTypeForm\TypeFormServiceProvider::class,
+    SideshowTgrove\LaravelTypeForm\TypeFormServiceProvider::class,
 ]
 ```
 
@@ -33,14 +33,14 @@ Add the Facade in config/app.php
 ```
 'aliases' => [
     ...
-    'TypeForm' => RosiersRobin\LaravelTypeForm\TypeFormFacade::class,
+    'TypeForm' => SideshowTgrove\LaravelTypeForm\TypeFormFacade::class,
 ]
 ```
 ## Config
 To publish the config, run the vendor publish command:
 
 ```
-php artisan vendor:publish --provider="RosiersRobin\LaravelTypeForm\TypeFormServiceProvider"
+php artisan vendor:publish --provider="SideshowTgrove\LaravelTypeForm\TypeFormServiceProvider"
 ```
 
 Sample of config/typeform.php
