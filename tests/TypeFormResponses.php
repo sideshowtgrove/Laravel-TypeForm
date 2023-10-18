@@ -1,5 +1,5 @@
 <?php
-namespace RosiersRobin\LaravelTypeForm\Test;
+namespace SideshowTgrove\LaravelTypeForm\Test;
 
 class TypeFormResponses
 {
